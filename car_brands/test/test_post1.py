@@ -1,8 +1,6 @@
 import requests
 
 
-access_token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzI1Mjg1MDA2LCJpYXQiOjE3MjUyODQ5OTEsImp0aSI6IjA1NmJmODBiZmVmODRhZjNhYzA0YzAwYWI1N2I1NDhjIiwidXNlcl9pZCI6MX0.K6NDL7bbhJwSv7LJ2FGBurCE0lt9neQRe1ZNzKnB9to'
-
 url_car = 'http://127.0.0.1:8000/add/'
 data_car = {
     "name": "BMW1",
@@ -10,7 +8,7 @@ data_car = {
     "info": "Made in Germany"
 }
 headers = {
-    'Authorization': f'Bearer {access_token}',
+    'Authorization': f'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzI1NDU3NDgyLCJpYXQiOjE3MjU0NTYyODIsImp0aSI6IjNlYTYwMzc3Y2U2YzQ2ZWJiZTUxYzk1Y2ZmMTcwNjFmIiwidXNlcl9pZCI6MX0.X9tKWk8uym4ZEWanxvLY9OTMwr3GDLREAf1cWcwLmcM',
     'Content-Type': 'application/json'
 }
 
